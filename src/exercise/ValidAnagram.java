@@ -2,11 +2,7 @@ package exercise;
 
 import java.util.HashMap;
 
-public class validAnagram {
-	public static void main(String[] args) {
-	
-		System.out.print(	isValidAnagram("anagram", "aanmagr"));
-	}
+public class ValidAnagram {
 
 	public static boolean isValidAnagram(String first, String second) {
 		// I need to validate if it has the same character with the same number of
